@@ -14,6 +14,7 @@ public class AddressBook {
 
 	public int size() {
 		return addressMap.size();
+		
 	}
 
 }
