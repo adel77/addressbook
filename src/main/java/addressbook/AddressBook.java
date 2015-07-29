@@ -9,12 +9,10 @@ public class AddressBook {
 	
 	public void addEntry(String firstName, String phoneNumber) {
 		addressMap.put(firstName,  phoneNumber);
-		
 	}
 
 	public int size() {
 		return addressMap.size();
-		
 	}
 
 }
