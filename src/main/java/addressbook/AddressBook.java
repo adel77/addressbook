@@ -1,18 +1,9 @@
 package addressbook;
 
-import java.util.HashMap;
-import java.util.Map;
+public interface AddressBook {
 
-public class AddressBook {
+	public abstract void addEntry(String firstName, String phoneNumber);
 
-	private Map<String, String> addressMap = new HashMap<String, String>();	
-	
-	public void addEntry(String firstName, String phoneNumber) {
-		addressMap.put(firstName,  phoneNumber);
-	}
-
-	public int size() {
-		return addressMap.size();
-	}
+	public abstract int size();
 
 }

@@ -8,7 +8,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 public class AddressBookServlet extends HttpServlet {
-	AddressBook book = new AddressBook();
+	AddressBook book = new AddressBookMongoMongolab();
 	
 	@Override
 	protected void service(HttpServletRequest request, HttpServletResponse response)

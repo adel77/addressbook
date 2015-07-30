@@ -8,7 +8,7 @@ public class AddressBookTest {
 
 	@Test
 	public void test() {
-		AddressBook book = new AddressBook();
+		AddressBook book = new AddressBookInMemory();
 		
 		assertEquals(0, book.size());
 		book.addEntry("Tester",  "234234234");
